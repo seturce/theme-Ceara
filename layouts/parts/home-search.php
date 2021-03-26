@@ -1,6 +1,6 @@
 <section id="home-intro" style="background-image:url('<?php echo $this->asset('img/home-background-tja.jpg', false); ?>');  background-size: cover;" class="js-page-menu-item home-entity clearfix">
     <div class="box">
-        <div style="margin:auto; width:250px;"><img width='250px' src='<?php echo $this->asset('img/map-white-logo.png', false); ?>' /></div>
+        <div style="margin:auto; width:400px;"><img width='400px' src='<?php echo $this->asset('img/map-white-logo.png', false); ?>' /></div>
     </div>
 
     <?php $this->applyTemplateHook('home-search', 'begin'); ?>
@@ -23,9 +23,20 @@
         <br>
         <div style="text-align: center;">
             <H3>INSCRIÇÕES: 29 DE MARÇO A 08 DE ABRIL</H3>
-            <h5>Precisa de ajuda? <a style="color: #f26b35;" href="https://tawk.to/chat/605676e8067c2605c0ba9e5d/1f18s2apk">Fale com o atendimento on-line.</a></h5>
-            <h5>Horário de atendimento</h5>
-            <h5>segunda até sexta – 9hs às 17hs</h5>
+
+            <h5>
+                <div>
+                    Precisa de ajuda? <a style="color: #f26b35;" href="https://tawk.to/chat/605676e8067c2605c0ba9e5d/1f18s2apk">Fale com o atendimento on-line.</a>
+                </div>
+                <div>
+                    Horário de atendimento
+                </div>
+                <div>
+                    segunda até sexta – 9hs às 17hs
+                </div>
+            </h5>
+            <!-- <h5>Horário de atendimento</h5>
+            <h5>segunda até sexta – 9hs às 17hs</h5> -->
         </div>
 
         <br>
