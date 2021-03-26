@@ -12,10 +12,11 @@
         <?php
         $dataAtual = date("Y-m-d H:i:s", time());
         $dataFimInscricao = '2021-04-08 23:59:59';
+
         if ($dataAtual <= $dataFimInscricao) {
             echo '<a class="btn btn-accent btn-large" style="background-color: #f26b35;border: 1px solid #f26b35;" href="https://baresrestauranteseafins.setur.ce.gov.br/oportunidade/1" target="_blank" class="elementor-button-link elementor-button elementor-size-xl" role="button">INSCREVA-SE AQUI</a>';
         } else {
-            echo '<a class="btn btn-accent btn-large" target="_blank" class="elementor-button-link elementor-button elementor-size-xl" role="button">INSCRÕES ENCERRADAS!</a>';
+            echo '<a class="btn btn-accent btn-large" target="_blank" class="elementor-button-link elementor-button elementor-size-xl" role="button">INSCRIÇÕES ENCERRADAS!</a>';
         }
 
         ?>
