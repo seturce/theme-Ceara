@@ -1,4 +1,5 @@
 <?php
+
 namespace Ceara;
 
 use MapasCulturais\App;
@@ -59,18 +60,20 @@ class Theme extends BaseV1\Theme
             'site: owner' => 'Secretaria da Cultura do Estado do Ceará',
             'site: by the site owner' => 'pela Secretaria da Cultura do Estado do Ceará',
 
-            'home: abbreviation' => "SECULT",
+            'home: abbreviation' => "SETUR",
             // 'home: colabore' => "Colabore com o Mapas Culturais",
             //'home: welcome' => "O Mapa Cultural do Ceará é a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria da Cultura do Estado do Ceará sobre cenário cultural cearense. Ficou mais fácil se programar para conhecer as opções culturais que as cidades cearenses oferecem: shows musicais, espetáculos teatrais, sessões de cinema, saraus, entre outras. Além de conferir a agenda de eventos, você também pode colaborar na gestão da cultura do estado: basta criar seu perfil de <a href=\"$url_search_agents\" >agente cultural</a>. A partir deste cadastro, fica mais fácil participar dos editais e programas da Secretaria e também divulgar seus <a href=\"{$url_search_events}\">eventos</a>, <a href=\"{$url_search_spaces}\">espaços</a> ou <a href=\"$url_search_projects\">projetos</a>.",
-            'home: welcome' => "Plataforma livre, colaborativa e interativa de mapeamento do cenário cultural cearense e instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas pela Secretaria da Cultura do Estado do Ceará.
-                                <br><br>O Mapa Cultural é uma ferramenta de comunicação visibilizando os eventos do circuito de festivais de artes e do calendário cultural, os projetos desenvolvidos e os espaços promovidos pelos agentes e instituições culturais do Ceará. É também a plataforma de acesso e execução dos editais realizados pela Secretaria.
-                                <br><br>Além de conferir a agenda de eventos, você também pode colaborar na gestão da cultura do estado: basta criar seu perfil de agente cultural. A partir do cadastro, fica mais fácil participar dos editais e programas da Secretaria e também divulgar seus eventos, espaços ou projetos.",
+            'home: welcome' => "Ação do Governo do Estado do Ceará que tem por objetivo conceder auxilio financeiro aos desempregados (as) do setor de bares, restaurantes e afins (alimentação fora do lar). Faz parte de um pacote de ações para socorrer o setor em meio à pandemia da Covid-19. 
+                                <br><br>Para solicitar o auxílio, que será desembolsado em duas parcelas de R$ 500,00 (quinhentos reais), é necessário o cadastramento junto ao Mapa de Informações e Indicadores do Turismo (SISTUR). A estimativa é beneficiar cerca de 10 mil pessoas.
+                                <br><br>O requisito obrigatório é que sejam trabalhadores(as) desempregados que atuaram em bares, restaurantes e afins (alimentação fora do lar), com ênfase nos  estabelecimentos ou atividades que se enquadrem nas atividades com CNAE, principalmente  Restaurantes e similares, Bares e outros estabelecimentos especializados em servir bebidas, Lanchonetes, casas de chá, de sucos e similares, Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento, Bares e outros estabelecimentos especializados em servir bebidas, com entretenimento, Serviços ambulantes de alimentação, Fornecimento de alimentos preparados preponderantemente para empresas, Serviços de alimentação para eventos e recepções – bufê, Cantinas – serviços de alimentação privativos e Fornecimento de alimentos preparados preponderantemente para consumo. Esse é o público-alvo desse auxílio financeiro. A COMPROVAÇÃO  DAR-SE-Á MEDIANTE APRESENTAÇÃO DO REGISTRO DE DESLIGAMENTO DO EMPREGO NA CARTEIRA DE TRABALHO.
+                                <br><br>Segundo o secretário do Turismo do Ceará, Arialdo Pinho, “esse auxílio financeiro promovido pelo Governo do Ceará é um mecanismo importante de proteção social para os trabalhadores que atuaram no setor Bares, Restaurantes e Alimentação Fora do Lar”.",
+
 
             // 'home: events' => "Você pode pesquisar eventos culturais nos campos de busca combinada. Como usuário cadastrado, você pode incluir seus eventos na plataforma e divulgá-los gratuitamente.",
             // 'home: agents' => "Você pode colaborar na gestão da cultura com suas próprias informações, preenchendo seu perfil de agente cultural. Neste espaço, estão registrados artistas, gestores e produtores; uma rede de atores envolvidos na cena cultural paulistana. Você pode cadastrar um ou mais agentes (grupos, coletivos, bandas instituições, empresas, etc.), além de associar ao seu perfil eventos e espaços culturais com divulgação gratuita.",
             // 'home: spaces' => "Procure por espaços culturais incluídos na plataforma, acessando os campos de busca combinada que ajudam na precisão de sua pesquisa. Cadastre também os espaços onde desenvolve suas atividades artísticas e culturais.",
             // 'home: projects' => "Reúne projetos culturais ou agrupa eventos de todos os tipos. Neste espaço, você encontra leis de fomento, mostras, convocatórias e editais criados, além de diversas iniciativas cadastradas pelos usuários da plataforma. Cadastre-se e divulgue seus projetos.",
-            'home: home_devs' => 'Existem algumas maneiras de desenvolvedores interagirem com o Mapas Culturais. A primeira é através da nossa <a href="https://github.com/secultce/mapasculturais/blob/master/documentation/docs/mc_config_api.md" target="_blank">API</a>. Com ela você pode acessar os dados públicos no nosso banco de dados e utilizá-los para desenvolver aplicações externas. Além disso, o Mapas Culturais é construído a partir do sofware livre <a href="http://institutotim.org.br/project/mapas-culturais/" target="_blank">Mapas Culturais</a>, criado em parceria com o <a href="http://institutotim.org.br" target="_blank">Instituto TIM</a>, e você pode contribuir para o seu desenvolvimento através do <a href="https://github.com/secultce/mapasculturais/" target="_blank">GitHub</a>.',
+            //'home: home_devs' => 'Existem algumas maneiras de desenvolvedores interagirem com o Mapas Culturais. A primeira é através da nossa <a href="https://github.com/secultce/mapasculturais/blob/master/documentation/docs/mc_config_api.md" target="_blank">API</a>. Com ela você pode acessar os dados públicos no nosso banco de dados e utilizá-los para desenvolver aplicações externas. Além disso, o Mapas Culturais é construído a partir do sofware livre <a href="http://institutotim.org.br/project/mapas-culturais/" target="_blank">Mapas Culturais</a>, criado em parceria com o <a href="http://institutotim.org.br" target="_blank">Instituto TIM</a>, e você pode contribuir para o seu desenvolvimento através do <a href="https://github.com/secultce/mapasculturais/" target="_blank">GitHub</a>.',
             //
             // 'search: verified results' => 'Resultados Verificados',
             // 'search: verified' => "Verificados"
@@ -1511,16 +1514,14 @@ class Theme extends BaseV1\Theme
                     $relation = $owner->createAgentRelation($agent, 'group-admin', true, false);
                     $relation->save(true);
                 }
-
             }
 
             $app->enableAccessControl();
-
         });
 
         $app->hook('template(site.index.home-search):begin', function () use ($app) {
-           return;
-           /*
+            return;
+            /*
             $titulo = "AUXÍLIO FINANCEIRO AOS PROFISSIONAIS DO SETOR DE EVENTOS";
             $titulo_url =  $app->createUrl('opportunity','single', [2852]);
             $texto = "Ação do Governo do Estado do Ceará que tem por objetivo conceder aos trabalhadores e trabalhadoras do setor de eventos um auxílio financeiro. Faz parte de um pacote de ações para socorrer o setor de eventos no Estado em meio à pandemia da Covid-19. <br/><br/> O auxílio será pago em duas parcelas de R$ 500, mediante cadastro dos profissionais junto à Secretaria da Cultura do Estado, através do Mapa Cultural do Ceará. Cerca de 10 mil profissionais, como músicos, humoristas e técnicos de som, deverão ser beneficiados. Ao todo R$ 10 milhões serão investidos pelo Estado para transferência dessa renda. Estão inclusos músicos, humoristas, profissionais de circo, técnicos de som, luz e imagem, montadores de palcos, etc.";
@@ -1530,7 +1531,7 @@ class Theme extends BaseV1\Theme
             $this->part('auxilioeventos/home-search', ['texto' => $texto, 'botao' => $botao, 'titulo' => $titulo, 'titulo_url'=> $titulo_url, 'botao_url' => $botao_url]);
             */
         });
-        
+
         $app->hook('<<GET|POST>>(registration.remove)', function () use ($app) {
 
             $this->requireAuthentication();
@@ -1561,14 +1562,12 @@ class Theme extends BaseV1\Theme
                 $result = $statement->fetchAll();
                 $result_type = "success";
                 $result = "OK";
-
             } catch (\Exception $e) {
                 $result = $e->getMessage();
                 $result_type = "error";
             }
 
             $this->json(array($result_type => $result));
-
         });
 
         $app->hook('template(opportunity.<<create|edit|single>>.registration-list-header):end', function () use ($app) {
@@ -1583,41 +1582,41 @@ class Theme extends BaseV1\Theme
             }
         });
 
-        $app->hook('template.opportunity.single.header.registration-item', function($registrationId) use($app) {
+        $app->hook('template.opportunity.single.header.registration-item', function ($registrationId) use ($app) {
             if ($app->user->is('admin')) {
-                echo '<button class="btn btn-danger" data-id='.$registrationId.' onclick=\'if (confirm("Tem certeza que você deseja apagar a inscrição n. on-" + this.dataset.id + " ?")) {$.ajax({url: MapasCulturais.baseURL + "/registration/remove/registration_id:"+ this.dataset.id , success: function(result){ if(result.success) {MapasCulturais.Messages.success("Inscrição excluida com sucesso!");} else{ MapasCulturais.Messages.error(result.error);} }});}\'> Apagar </button>';
+                echo '<button class="btn btn-danger" data-id=' . $registrationId . ' onclick=\'if (confirm("Tem certeza que você deseja apagar a inscrição n. on-" + this.dataset.id + " ?")) {$.ajax({url: MapasCulturais.baseURL + "/registration/remove/registration_id:"+ this.dataset.id , success: function(result){ if(result.success) {MapasCulturais.Messages.success("Inscrição excluida com sucesso!");} else{ MapasCulturais.Messages.error(result.error);} }});}\'> Apagar </button>';
             }
         });
-        
+
         /* Adicionando novos campos na entidade entity revision agent */
         $app->hook('template(entityrevision.history.tab-about-service):end', function () {
             $this->part('news-fields-agent-revision', [
                 'entityRevision' => $this->data->entityRevision,
             ]);
         });
-       
+
         /* Adicionando novos campos na entidade entity revision agent */
         $app->hook('template(entityrevision.history.tab-about-service):end', function () {
             $this->part('news-fields-agent-revision', [
                 'entityRevision' => $this->data->entityRevision,
             ]);
         });
-      
+
         $app->hook('template(opportunity.single.header-inscritos):end', function () use ($app) {
             $opportunity = $this->controller->requestedEntity;
             $this->part('report/opportunity-report-buttons', ['entity' => $opportunity]);
         });
-        
+
         //relatórios de inscritos botão antigo 
-        $app->hook("<<GET|POST>>(opportunity.reportOld)", function()use ($app){
+        $app->hook("<<GET|POST>>(opportunity.reportOld)", function () use ($app) {
             //return var_dump("ola");
             $this->requireAuthentication();
             // //$app = App::i();
-            
+
 
             $entity = $app->repo("Opportunity")->find($this->urlData['id']);
 
-            if(!$entity){
+            if (!$entity) {
                 $app->pass();
             }
 
@@ -1627,20 +1626,20 @@ class Theme extends BaseV1\Theme
 
             $filename = sprintf(\MapasCulturais\i::__("oportunidade-%s--inscricoes"), $entity->id);
 
-           
+
             $response = $app->response();
             $response['Content-Encoding'] = 'UTF-8';
             $response['Content-Type'] = 'application/force-download';
-            $response['Content-Disposition'] ='attachment; filename=' . $filename . '.xls';
-            $response['Pragma'] ='no-cache';
+            $response['Content-Disposition'] = 'attachment; filename=' . $filename . '.xls';
+            $response['Pragma'] = 'no-cache';
 
             $app->contentType('application/vnd.ms-excel; charset=UTF-8');
-            
-    
+
+
             ob_start();
             $this->partial("report-old", ['entity' => $entity]);
             $output = ob_get_clean();
-            echo mb_convert_encoding($output,"HTML-ENTITIES","UTF-8");
+            echo mb_convert_encoding($output, "HTML-ENTITIES", "UTF-8");
         });
 
 
@@ -1679,19 +1678,19 @@ class Theme extends BaseV1\Theme
                     return $motivos;
                 });
                 $categoria = $registration->category;
-                $agentRelations = $app->repo('RegistrationAgentRelation')->findBy(['owner'=>$registration]);
-                
+                $agentRelations = $app->repo('RegistrationAgentRelation')->findBy(['owner' => $registration]);
+
                 $coletivo = null;
-                
-                if($agentRelations) {
-                   $coletivo = $agentRelations[0]->agent->nomeCompleto;
+
+                if ($agentRelations) {
+                    $coletivo = $agentRelations[0]->agent->nomeCompleto;
                 }
 
                 $proponente = $registration->owner->nomeCompleto;
-                if (strpos($categoria,'JURÍDICA') && $coletivo !== null) {
-                   $proponente = $coletivo;
-                } 
-                
+                if (strpos($categoria, 'JURÍDICA') && $coletivo !== null) {
+                    $proponente = $coletivo;
+                }
+
                 $json_array[] = [
                     'n_inscricao' => $registration->number,
                     'projeto' => $projectName,
@@ -1722,84 +1721,83 @@ class Theme extends BaseV1\Theme
         $app->hook("POST(aldirblanc.status)", function () use ($app) {
             $this->requireAuthentication();
             $app = App::i();
-    
+
             $type_bank_account = $app->repo('RegistrationMeta')->findOneBy([
                 'key' => 'field_6494',
                 'owner' => $this->urlData['registration_id']
             ]); // Tipo de conta bancária
-    
+
             $bank = $app->repo('RegistrationMeta')->findOneBy([
                 'key' => 'field_6469',
                 'owner' => $this->urlData['registration_id']
             ]);
-    
+
             $agency = $app->repo('RegistrationMeta')->findOneBy([
                 'key' => 'field_6468',
                 'owner' => $this->urlData['registration_id']
             ]);
-    
+
             $account = $app->repo('RegistrationMeta')->findOneBy([
                 'key' => 'field_6464',
                 'owner' => $this->urlData['registration_id']
             ]);
-    
+
             $bank->value = $this->postData['banks'];
             $type_bank_account->value = $this->postData['type_bank_accounts'];
-            $agency->value = $this->postData["agency_digit"] 
+            $agency->value = $this->postData["agency_digit"]
                 ? $this->postData["agency_number"] . "-" . $this->postData["agency_digit"]
                 : $this->postData["agency_number"];
-            $account->value = $this->postData["account_digit"] 
+            $account->value = $this->postData["account_digit"]
                 ? $this->postData["account_number"] . "-" . $this->postData["account_digit"]
                 : $this->postData["account_number"];
-    
+
             $app->em->flush();
-    
+
             $app->redirect($this->createUrl('status', [$this->urlData['registration_id']]));
         });
 
-        $app->hook('template(<<agent|space|event|project>>.<<single>>.main-content):end', function() use ($app) {
+        $app->hook('template(<<agent|space|event|project>>.<<single>>.main-content):end', function () use ($app) {
             // É possível acessar a propriedade config pelo o $app;
-            
+
             $params = [];
-    
-            if(array_key_exists('compliant',$app->_config)) {
+
+            if (array_key_exists('compliant', $app->_config)) {
                 $params['compliant'] = $app->_config['compliant']; // Denuncia
             }
-    
-            if(array_key_exists('suggestion', $app->_config)) {
+
+            if (array_key_exists('suggestion', $app->_config)) {
                 $params['suggestion'] = $app->_config['suggestion']; // Contato
             }
-            
-            if(array_key_exists('google-recaptcha-sitekey',$app->_config)) {
+
+            if (array_key_exists('google-recaptcha-sitekey', $app->_config)) {
                 $params['googleRecaptchaSiteKey'] = $app->_config['google-recaptcha-sitekey'];
             }
-            
+
             $this->part('compliant_suggestion_ceara.php', $params);
         });
 
         $app->hook('template(opportunity.single.header-inscritos):end', function () use ($app) {
             $opportunity = $this->controller->requestedEntity;
-            $inciso1_opportunity_id = isset($app->_config['plugins']['AldirBlanc']) ? $app->_config['plugins']['AldirBlanc']['config']['inciso1_opportunity_id'] : 0;                         
-           
-            if ($opportunity->id == $inciso1_opportunity_id) {
-               $url = $app->createUrl('aldirblanc', 'inciso1ProcessResult');
-               echo '<a class="btn btn-default" href="'.$url.'"> Processar Resultado das Avaliacoes Inciso 1 </a>';
-            }            
-       });
+            $inciso1_opportunity_id = isset($app->_config['plugins']['AldirBlanc']) ? $app->_config['plugins']['AldirBlanc']['config']['inciso1_opportunity_id'] : 0;
 
-       $app->hook('template(aldirblanc.status.reason-failure):begin', function ($params) use ($app) {
-        
+            if ($opportunity->id == $inciso1_opportunity_id) {
+                $url = $app->createUrl('aldirblanc', 'inciso1ProcessResult');
+                echo '<a class="btn btn-default" href="' . $url . '"> Processar Resultado das Avaliacoes Inciso 1 </a>';
+            }
+        });
+
+        $app->hook('template(aldirblanc.status.reason-failure):begin', function ($params) use ($app) {
+
             $evaluations = $app->repo('RegistrationEvaluation')->findByRegistrationAndUsersAndStatus($params['entity']);
             $params['evaluations'] = $evaluations;
 
             $this->part('reason-failure', $params);
-
-       });
+        });
 
         $theme = $this;
 
         $app->hook('auth.createUser:after', function ($user) use ($app, $theme) {
-            $theme->fixAgentPermission($user);      
+            $theme->fixAgentPermission($user);
         });
 
         $app->hook('auth.successful', function () use ($app, $theme) {
@@ -1852,39 +1850,40 @@ class Theme extends BaseV1\Theme
      *
      * @return void
      */
-    public function fixAgentPermission($user){
+    public function fixAgentPermission($user)
+    {
         $app = App::i();
         $conn = $app->em->getConnection();
 
-        $agents = $app->repo('Agent')->findBy(['user' => $user ]); 
-        if (count($agents) > 2) return;  
+        $agents = $app->repo('Agent')->findBy(['user' => $user]);
+        if (count($agents) > 2) return;
 
         if ($user->createTimestamp < new \DateTime("2020-02-15")) return;
-                
-        $agent_profile = $app->repo('Agent')->findBy(['id' => $user->profile->id, 'status' => 0 ]);
 
-        if (count($agent_profile) > 1){
+        $agent_profile = $app->repo('Agent')->findBy(['id' => $user->profile->id, 'status' => 0]);
+
+        if (count($agent_profile) > 1) {
             $agent_profile[0]->status = 1;
             $agent_profile[0]->save(true);
         }
 
-        $actions = ['@control','create','remove','destroy','changeOwner','archive','view','modify','viewPrivateFiles'
-        ,'viewPrivateData','createAgentRelation','createAgentRelationWithControl','removeAgentRelation'
-        ,'removeAgentRelationWithControl','createSealRelation','removeSealRelation'];
+        $actions = [
+            '@control', 'create', 'remove', 'destroy', 'changeOwner', 'archive', 'view', 'modify', 'viewPrivateFiles', 'viewPrivateData', 'createAgentRelation', 'createAgentRelationWithControl', 'removeAgentRelation', 'removeAgentRelationWithControl', 'createSealRelation', 'removeSealRelation'
+        ];
 
         //Para cada agent individual adiciona as permissoes que podem estar faltando
-        foreach ($agents as $agent){
+        foreach ($agents as $agent) {
             if ($agent->type->id == 2) return;
-            $pcaches = $conn->fetchAll('select action from pcache where user_id = ' . $user->id . ' and object_id = ' . $agent->id  );
+            $pcaches = $conn->fetchAll('select action from pcache where user_id = ' . $user->id . ' and object_id = ' . $agent->id);
             foreach ($actions as $action) {
-                $has_permission = false ;                    
+                $has_permission = false;
                 foreach ($pcaches as $p) {
                     if ($p['action'] == $action) {
                         $has_permission = true;
                         break;
                     }
                 }
-                if ($has_permission === false){
+                if ($has_permission === false) {
                     $permission = new \MapasCulturais\Entities\AgentPermissionCache();
                     $permission->owner = $agent;
                     $permission->action = $action;
@@ -1893,7 +1892,7 @@ class Theme extends BaseV1\Theme
                     $app->em->persist($permission);
                     $app->em->flush();
                 }
-            }                
+            }
         }
     }
 }
