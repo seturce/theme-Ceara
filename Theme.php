@@ -1556,10 +1556,12 @@ class Theme extends BaseV1\Theme
 
             $connection = $app->em->getConnection();
             $statement = $connection->prepare("DELETE FROM registration where id = {$registration_id}");
-
+            $statementPacache = $connection->prepare("DELETE FROM pcache where object_id = {$registration_id}");
             try {
                 $statement->execute();
                 $result = $statement->fetchAll();
+                $statementPacache->execute();
+                $result1 = $statementPacache->fetchAll();
                 $result_type = "success";
                 $result = "OK";
             } catch (\Exception $e) {
