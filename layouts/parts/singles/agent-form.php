@@ -12,7 +12,7 @@
         <span class="js-editable <?php echo ($entity->isPropertyRequired($entity,"shortDescription") && $editEntity? 'label': '');?>" data-edit="shortDescription" data-original-title="<?php \MapasCulturais\i::esc_attr_e("Descrição Curta");?>" data-emptytext="<?php \MapasCulturais\i::esc_attr_e("Insira uma Descrição Curta");?>" data-showButtons="bottom" data-tpl='<textarea maxlength="400"></textarea>'><?php echo $this->isEditable() ? $entity->shortDescription : nl2br($entity->shortDescription); ?></span>
     </div>
 
-<!-- Widget-area Inicio -->
+<!-- Widget-area Inicio --> 
 <div class="alert warning">
     <?php
         $entityClass = $entity->getClassName();
